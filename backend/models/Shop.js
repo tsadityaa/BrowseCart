@@ -77,7 +77,7 @@ const shopSchema = new mongoose.Schema({
   },
   createdBy: { 
     type: String, 
-    // required: true 
+    
   },
   isOpen: { 
     type: Boolean, 
