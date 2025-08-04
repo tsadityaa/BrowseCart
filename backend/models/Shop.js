@@ -87,7 +87,7 @@ const shopSchema = new mongoose.Schema({
   timestamps: true
 });
 
-// Create geospatial index for location-based queries
+
 shopSchema.index({ location: '2dsphere' });
 
 // Create text index for search functionality
