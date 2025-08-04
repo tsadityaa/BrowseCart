@@ -90,7 +90,7 @@ const shopSchema = new mongoose.Schema({
 
 shopSchema.index({ location: '2dsphere' });
 
-// Create text index for search functionality
+
 shopSchema.index({
   name: 'text',
   description: 'text',
