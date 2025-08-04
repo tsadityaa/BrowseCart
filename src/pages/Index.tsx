@@ -170,10 +170,10 @@ const Index = () => {
     try {
       const updated = await updateShop(updatedShop);
       setEditingShop(null);
-      setSelectedShop(updated); // Show updated shop details
+      setSelectedShop(updated); 
     } catch (err) {
       console.error('Error updating shop:', err);
-      // Could add toast notification here
+
     }
   };
 
