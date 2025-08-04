@@ -76,7 +76,7 @@ const Index = () => {
           longitude: position.coords.longitude
         };
         
-        // Only update if location changed significantly (more than ~10 meters)
+        
         if (!userLocation || 
             calculateDistance(
               userLocation.latitude, 
