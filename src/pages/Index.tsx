@@ -67,7 +67,7 @@ const Index = () => {
       const options = {
         enableHighAccuracy: true,
         timeout: 10000,
-        maximumAge: 30000 // Cache location for 30 seconds
+        maximumAge: 30000 
       };
 
       const successCallback = (position: GeolocationPosition) => {
